@@ -1,0 +1,13 @@
+[package]
+name = "ethjson"
+version = "0.1.0"
+authors = ["Parity Technologies <admin@parity.io>"]
+
+[dependencies]
+ethcore-util = { path = "../util" }
+rustc-serialize = "0.3"
+serde = "0.9"
+serde_json = "0.9"
+serde_derive = "0.9"
+clippy = { version = "0.0.103", optional = true}
+
